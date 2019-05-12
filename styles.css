@@ -1,0 +1,140 @@
+li{
+  list-style: none;
+}
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN";
+}
+a {
+  text-decoration: none;
+}
+header{
+  height:60px;
+  width:100%;
+  background-color: rgba(119, 136, 153, 0.7) ;
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+.header-left{
+  padding:15px 0 15px 10px;
+  float:left;
+  color:blue;
+  font-weight:bold;
+  font-size:30px;
+  font-family:Courier;
+}
+.header-right{
+  float:right;
+  display:block;
+}
+.header-right a{
+  float:left;
+  padding:0 15px;
+  color:white;
+  line-height: 60px;
+}
+.header-right a:hover{
+  background-color:rgba(255, 255, 255, 0.3);
+    transition: all 0.5s;
+}
+.profiele{
+  height:1000px;
+  background-image:url(IMG_E4849.JPG);
+  background-size: cover;
+  text-align:center;
+}
+.contents{
+  color:red;
+  text-align:center;
+  opacity:0.6;
+  padding-top:20px;
+  font-size:35px;
+}
+h4{
+  color:red;
+  opacity:0.6;
+}
+.icon{
+  float:left;
+  height:20px;
+  width:100%;
+  text-align: center;
+}
+span{
+  padding-right:5px;
+}
+.btn{
+  text-align: center;
+  line-height:30px;
+  display:inline-block;
+  color:white;
+  opacity:0.7;
+  width:150px;
+  height:30px;
+  border-radius: 4px;
+}
+.btn:hover{
+  opacity:1;
+  transition: all 0.5s;
+}
+.mail{
+  background-color: #1e90ff;
+  margin-right: 10px;
+}
+.instagram{
+  background-color: #c71585;
+}
+.line{
+  background-color:green;
+  margin-top:10px;
+  padding-left:10px;
+}
+.icon-line{
+    position:relative;
+}
+img{
+position:absolute;
+top:17px;
+left:615px;
+}
+.left{
+  text-align:left;
+  font-size:20px;
+  padding:100px 0 0 60px;
+    color:#800000;
+}
+.question input{
+  background-color:#dda0dd;
+}
+.question input:hover{
+  background-color:#00bfff;
+}
+footer{
+      background-color: #fffaf0;
+      width:100%;
+      border-top: 1px solid black;
+     height:250px;
+}
+.footer-rights{
+  padding-right: 15px;
+  float:right;
+}
+.center{
+  float:left;
+  margin-right:20px;
+}
+.most-right{
+  float:right;
+}
+.footer-left{
+  margin:10px 0 0 10px;
+  float:left;
+}
+textarea{
+  height:100px;
+  width:300px;
+}
+.year .number{
+  font-size:10px;
+}
